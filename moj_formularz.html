@@ -7,6 +7,44 @@
 
     
     <title>Formularz Przelewu</title>
+
+    <style>
+        /* selektor : chcemy zmienic  styl calego body*/
+        body{
+            background-color:blue;              /*tło */
+            font-family: Arial, sans-serif;       /*czytelna  czcionka*/  
+            margin: 20px;                         /*Odstep of krawedzi okna */
+        }
+
+        /*chcemy zeby ramki byly ladniejsze */
+        fieldset{
+            border:2px solid blueviolet;        /*niebieska ciagla ramka*/
+            border-radius: 8px;                   /*zaokraglone rogi*/
+            margin-bottom: 20px;                  /*odstep pod ramka*/
+            background-color: yellow;           /*tlo wewnatrz ramki*/
+        }
+
+        /* Styl dla  napisu w  ramce */
+        legend{
+            font-family: "Courier New", monospace;/*ustawimy czcionke*/
+            font-size: 24px;                      /*zwiekszamy wilkosc  literek*/
+            font-weight: bold;                    /*powiekszenie*/
+            color:cyan;
+        }
+
+        /* ktore pola  zmieniamy  */
+        input, textarea, select {
+            padding: 10px;          /* odstep tekstu od  krawedzi boxa  */
+            border: 1px solid #ccc; /* ciensza  ramka  */
+            border-radius: 4px;     /* zaokraglenie ramek */
+            width: 100%;            /* boxy wypelniaja  caly fieldset */
+            box-sizing: border-box; /* padding  nie  moze rozpychac  boxa poza  ramke  */
+            margin-top: 5px;        /* odstep miedzy polem a  napisem */
+        }
+
+    </style>
+
+
 </head>
 
 <body>
