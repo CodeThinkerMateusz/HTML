@@ -1,0 +1,12 @@
+# Folder konfiguracyjny Visual Studio Code
+.vscode/
+
+# Pliki tymczasowe systemu Windows
+Thumbs.db
+desktop.ini
+
+# Pliki tymczasowe Maca
+.DS_Store
+
+# Jeśli będziesz używać paczek Node.js w przyszłości
+node_modules/

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Doctype html declares document to be HTML 5 sytle -->
+<html>
+<head>
+    <meta http-equiv="content-type"
+            content="text/html; charset=utf-8" />
+
+    
+    <title>Formularz Przelewu</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Bank transfer details</legend>
+    
+        <p>
+            <label for="acc_number">Account Number:</label><br>
+            <input type="text" id="acc_number" name="account">
+        </p>
+        <p>
+            <label for="recipient">Recipient:</label><br>
+            <input type="text" id="recipient" name="recip">
+        </p>
+        <p>
+            <label for="note">Transfer note</label><br>
+            <textarea id="note" name="transfer_note" rows="4" cols="50"></textarea>
+        </p>
+
+        <div>
+            <label for="ammount">Amount</label>
+            <input type="number" id="ammount" value="100">
+        
+            <label for="curr">Currency</label>
+            <select id="curr">
+                <option>PLN</option>
+                <option>EUR</option>
+            </select> 
+        </div>
+
+        <p>
+            Transfer type:
+            <input type="radio" id="elixir" name="type" value="elixir" checked>
+            <label for="elixir">ELIXIR</label>
+
+            <input type="radio" id="sorbnet" name="type" value="sorbnet">
+            <label for="sorbnet">SORBNET</label>       
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional details</legend>
+            <p>
+                <label for="insurance">Buy insurance for the transfer</label>
+                <input type="typebox" id="insurance" name="ins">
+            </p>
+            <p>
+                <label for="e-mail">Confirmation e-mail</label>
+                <input type="email" id="e-mail" name="eml">
+            </p>
+        </fieldset>
+
+        <button type="submit">Send money nowhere</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
